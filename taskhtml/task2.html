@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../css/task2.css" type="text/css" rel="stylesheet" />
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/100124/46909/5919728df629d804184c4e34.css' rel='stylesheet' type='text/css' />
+    <meta http-equiv="expires" content="0" />
+    <title>任务2</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <nav>
+        <img src="../img/night.png" />
+        <p class="header">Night's Watch</p>
+        <ul>
+            <li class="nav-four"><a href="#">导航链接四</a></liclass="nav-four">
+            <li><a href="#">导航链接三</a></li>
+            <li><a href="#">导航链接二</a></li>
+            <li><a href="#">导航链接一</a></li>
+        </ul>
+    </nav>
+    <div id="block-one">
+        <h2 id="header">文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <p class="author">文章作者&nbsp; 文章发表时间</p>
+        <p>这是一个很长很长的段落</p>
+        <br />
+        <p>换行了</p>
+        <br />
+        <p><a href="#">这里有个链接</a><strong>富强民主文明和谐</strong><em>啦啦啦</em></p>
+        <br />
+    </div>
+    <div id="block-two">
+        <h2 id="header">最后一篇文章一级标题</h2>
+        <h3>文章二级标题</h3>
+        <p class="author">文章作者&nbsp; 文章发表时间</p>
+        <ol>
+            <li>排名1</li>
+            <li>排名2</li>
+            <li>排名3</li>
+        </ol>
+        <table>
+            <tr class="tr-one">
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td>操作</td>
+            </tr>
+            <tr class="tr-last">
+                <td><strong>总计</strong></td>
+                <td colspan="2"><strong>1000</strong></td>
+            </tr>
+        </table>
+    </div>
+    <div id="sidebar">
+        <h3>这里以后是侧栏,这是侧栏的标题</h3>
+        <form>
+            <p>
+                <span class="side-head">请输入邮箱地址</span>
+                <input type="email" name="email" placeholder="这是一个文本输入框"  class="inputblock"/>
+            </p>
+            <p class="msg">邮箱地址请按要求格式输入</p>
+            <p>
+                <span class="passwd side-head" >请输入密码</span>
+                <input type="password" name="password" placeholder="这是一个文本输入框" class="inputblock" /><br />
+                <span class="side-head">请重复输入密码</span>
+                <input type="password" name="password-check" placeholder="这是一个文本输入框" class="inputblock"/>
+            </p>
+            <p class="msg">密码请为6-16位英文数字</p>
+            <p class="sidebar-last">
+                <span class="side-head">性别</span>
+                <input type="radio" name="sex" id="male" /><span class="sex">男</span>
+                <input type="radio" name="sex" id="female" /><span class="sex">女</span>
+                <label for="male" class="male"><img src="../img/radio1.png" /></label>
+                <label for="female" class="female"><img src="../img/radio1.png" /></label>
+                <br />
+                <span class="side-head">城市</span>
+                <select>
+                    <option>北京</option>
+                    <option>上海</option>
+                    <option>广州</option>
+                </select>
+                <br />
+                <span class="side-head">爱好</span>
+                <input type="checkbox" name="sport" id="sport" />运动
+                <label for="sport" class="sport hobby"><img src="../img/square.png" /></label>
+                <input type="checkbox" name="art" id="art"/>艺术
+                <label for="art" class="art hobby"><img src="../img/square.png" /></label>
+                <input type="checkbox" name="science" id="science"/>科学
+                <label for="science" class="science hobby"><img src="../img/square.png" /></label>
+                <br />
+                <span class="personal">个人描述</span><textarea placeholder="这是一个多行描述框，输入您的个人描述"></textarea><br />
+            </p>
+            <button type="submit">确认提交</button>
+        </form>
+    </div>
+    <div id="footer">
+        <p> 版权所有&copy;</p>
+    </div>
+</body>
+</html>

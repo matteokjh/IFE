@@ -1,0 +1,248 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: block;
+    margin: 0 auto;
+    max-width: 2000px;
+    min-width: 1500px;
+    font-family: "Arial","Microsoft YaHei",sans-serif;
+    background-color: #eee;
+    overflow-x: hidden;
+}
+div {
+    line-height: 3rem;
+}
+h3 {
+    color: grey;
+}
+p.author {
+    font-size: .8rem;
+    color: grey;
+}
+/*nav开始*/
+nav {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    background-color: #333;
+}
+nav p {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-family: 'Edwardianab090c03c1871c';
+    font-size: 3rem;
+   
+}
+nav img {
+    position: relative;
+    display: inline-block;
+    width: 3%;
+    top: 10px;
+    left: 50px;
+    margin-right: 3%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+nav ul {
+    height: 100%;
+    float: right;
+    width: 50%;
+    margin:1%;
+}
+nav li {
+    display: list-item;
+    float: right;
+    margin: 1.57%;
+    font-size: .8rem;
+    color: black;
+}
+.nav-four {
+    opacity: .8;
+}
+/*nav结束*/
+
+/*block开始*/
+#block-one {
+    width: 94%;
+    margin: 2%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 0px grey;
+}
+#block-two {
+    width: 94%;
+    margin: 0 2% 2% 2%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 0px grey;
+}
+#block-two ol li {
+    margin: 0 5%;
+}
+table {
+    width: 100%;
+    text-align: left;
+    line-height: 2rem;
+    border-collapse: collapse;
+}
+table,td,th {
+    border: 1.7px solid rgba(230,230,230,.5);
+}
+td,th {
+     padding-left: 1%;
+}
+table .tr-one {
+    background-color: #333;
+    color: white;
+}
+table .tr-last {
+    background-color: rgba(230,230,230,1);
+}
+#sidebar {
+    width: 94%;
+    margin: 2%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 0px grey;
+}
+#sidebar h3 {
+    color: black;
+    border-left: 3px solid #ccc;
+    padding-left: 1%;
+}
+#sidebar p {
+    display: inline-block;
+    margin: 0 20%;
+    font-size: .9rem;
+    white-space: nowrap;
+}
+p.msg {
+    color: grey;
+    padding-left: 8%;
+}
+.inputblock {
+    width: 65%;
+    height: 2em;
+}
+span.passwd {
+    padding-left: 11%;
+}
+.side-head {
+    margin-right: 3%;
+}
+textarea {
+    position: relative;
+    width: 870px;
+    height: 150px;
+    right: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 1.5px solid #aaa;
+}
+span.personal {
+    position: relative;
+    display: inline-block;
+    bottom: 8em;
+    right: 3.2%;
+}
+#male:checked~label.male {
+    background-image: url(../img/radio2.png);
+}
+#male:checked~label.male img {
+    opacity: 0;
+}
+#female:checked~label.female {
+    background-image: url(../img/radio2.png);
+}
+#female:checked~label.female img {
+    opacity: 0;
+}
+.male img,.female img {
+    position: relative;
+    display: inline-block;
+    top: .2em;
+}
+input#male,input#female,input#sport,input#art,input#science {
+    visibility: hidden;
+}
+label.male {
+    position: relative;
+    right: 11%;
+}
+label.female {
+    position: relative;
+    right: 8%;
+}
+
+.sidebar-last span {
+    margin: 0 3% 0 6.8%;
+}
+span.sex {
+    margin: 0 2% 0 0;
+}
+label.hobby {
+    position: relative;
+    display: inline-block;
+    width: 1.5%;
+    height: 1em;
+    top: 1.2em;
+    left: -5%;
+}
+label.hobby img {
+    position: relative;
+    display: inline-block;
+    top: -1em;
+    width: 100%;
+}
+
+input#sport:checked~label.sport {
+    background-image: url(../img/gou.png);
+    background-position-y: -1px;
+}
+input#art:checked~label.art {
+    background-image: url(../img/gou.png);
+    background-position-y: -1px;
+}
+input#science:checked~label.science {
+    background-image: url(../img/gou.png);
+    background-position-y: -1px;
+}
+button {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 94%;
+    margin: 0 3%;
+    height: 2.5em;
+    font-size: 1.3rem;
+    font-family: inherit;
+    border-radius: 15px;
+    border: none;
+    background: rgb(50,84,209);
+    cursor: pointer;
+}
+/*block结束*/
+
+/*footer开始*/
+#footer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+#footer p {
+    display: inline-block;
+    color: white;
+    font-size: .8rem;
+    margin: 1%;
+    user-select: none;
+    cursor: default;
+}

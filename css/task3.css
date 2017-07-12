@@ -1,0 +1,62 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: white;
+}
+
+body {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1.5px solid #999;
+    background-color: #eee;
+    width: 860px;
+}
+
+img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+}
+
+#team {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1.5px solid #999;
+    float:left;
+}
+.name {
+    position: relative;
+    display: inline-block;
+    margin:20px;
+    font-size:1.5rem;
+    float:right;
+}
+
+#info {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    border: 1.5px solid #999;
+}
+
+#member {
+    display: inline-block;
+    width: 120px;
+    margin-left: 20px;
+    background-color: white;
+    border: 1.5px solid #999;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
